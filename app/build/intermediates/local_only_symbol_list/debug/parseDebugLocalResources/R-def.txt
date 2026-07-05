@@ -1,0 +1,28 @@
+R_DEF: Internal format may change without notice
+local
+color accent
+color background
+color buttonBg
+color surface
+color surfaceVariant
+color textPrimary
+color textSecondary
+drawable bg_circle
+drawable ic_person
+drawable ic_placeholder
+id btnGoToGithub
+id btnGoToProfile
+id btnShare
+id ivFoto
+id ivImage
+id tvDeskripsi
+id tvJurusanAngkatan
+id tvNama
+id tvNamaAplikasi
+id tvNim
+id tvSambutan
+layout activity_main
+layout activity_profile
+mipmap ic_launcher
+string app_name
+style Theme.PabWeek3
