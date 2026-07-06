@@ -1,14 +1,10 @@
 [
     {
-        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\9.0.0\\com.nehem.pabweek3.app-mergeDebugResources-30:\\layout\\activity_profile.xml",
-        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\9.0.0\\com.nehem.pabweek3.app-main-33:\\layout\\activity_profile.xml"
+        "merged": "com.nehem.pabweek3.app-mergeDebugResources-55:/layout/activity_main.xml",
+        "source": "com.nehem.pabweek3.app-main-58:/layout/activity_main.xml"
     },
     {
-        "merged": "com.nehem.pabweek3.app-mergeDebugResources-30:/layout/activity_main.xml",
-        "source": "com.nehem.pabweek3.app-main-33:/layout/activity_main.xml"
-    },
-    {
-        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\9.0.0\\com.nehem.pabweek3.app-mergeDebugResources-30:\\layout\\activity_main.xml",
-        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\9.0.0\\com.nehem.pabweek3.app-main-33:\\layout\\activity_main.xml"
+        "merged": "com.nehem.pabweek3.app-mergeDebugResources-55:/layout/activity_profile.xml",
+        "source": "com.nehem.pabweek3.app-main-58:/layout/activity_profile.xml"
     }
 ]

@@ -57,19 +57,9 @@
             android:layout_width="match_parent"
             android:layout_height="52dp"
             android:layout_marginTop="24dp"
-            android:backgroundTint="@color/buttonBg"
-            android:text="Go To Profile"
-            android:textAllCaps="false"
-            android:textColor="@color/textPrimary" />
-
-        <Button
-            android:id="@+id/btnGoToGithub"
-            android:layout_width="match_parent"
-            android:layout_height="52dp"
-            android:layout_marginTop="12dp"
             android:layout_marginBottom="16dp"
             android:backgroundTint="@color/buttonBg"
-            android:text="Go To My Github"
+            android:text="Go To Profile"
             android:textAllCaps="false"
             android:textColor="@color/textPrimary" />
 

@@ -20,7 +20,6 @@ class MainActivity : AppCompatActivity() {
     private val jurusan = "Informatika"
     private val angkatan = "24"
     private val deskripsi = "Saya adalah Mahasiswa Informatika semester 4"
-    private val githubUrl = "https://github.com/ScasTeam/scas-app"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -29,10 +28,6 @@ class MainActivity : AppCompatActivity() {
 
         binding.btnGoToProfile.setOnClickListener {
             goToProfile()
-        }
-
-        binding.btnGoToGithub.setOnClickListener {
-            goToGithub()
         }
     }
 
@@ -45,12 +40,6 @@ class MainActivity : AppCompatActivity() {
             putExtra(EXTRA_ANGKATAN, angkatan)
             putExtra(EXTRA_DESKRIPSI, deskripsi)
         }
-        startActivity(intent)
-    }
-
-    // IMPLICIT INTENT: membuka browser default menuju akun Github (opsional/nilai tambahan)
-    private fun goToGithub() {
-        val intent = Intent(Intent.ACTION_VIEW, Uri.parse(githubUrl))
         startActivity(intent)
     }
 

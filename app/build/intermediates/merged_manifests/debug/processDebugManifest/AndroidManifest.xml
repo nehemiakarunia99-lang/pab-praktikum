@@ -23,7 +23,6 @@
         android:label="PAB Week 3"
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/Theme.PabWeek3" >
         <activity
             android:name="com.nehem.pabweek3.MainActivity"
@@ -37,6 +36,14 @@
         <activity
             android:name="com.nehem.pabweek3.ProfileActivity"
             android:exported="false" />
+
+        <!-- Tugas Praktikum PAB (Week 4) - Compose UI Components -->
+        <activity
+            android:name="com.nehem.pabweek3.ComposeDemoActivity"
+            android:exported="true" />
+        <activity
+            android:name="androidx.compose.ui.tooling.PreviewActivity"
+            android:exported="true" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"

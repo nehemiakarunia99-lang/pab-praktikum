@@ -10,7 +10,6 @@ color textSecondary
 drawable bg_circle
 drawable ic_person
 drawable ic_placeholder
-id btnGoToGithub
 id btnGoToProfile
 id btnShare
 id ivFoto

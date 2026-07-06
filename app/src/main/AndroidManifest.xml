@@ -22,6 +22,11 @@
             android:name=".ProfileActivity"
             android:exported="false" />
 
+        <!-- Tugas Praktikum PAB (Week 4) - Compose UI Components -->
+        <activity
+            android:name=".ComposeDemoActivity"
+            android:exported="true" />
+
     </application>
 
 </manifest>

@@ -22,9 +22,6 @@ public final class ActivityMainBinding implements ViewBinding {
   private final ScrollView rootView;
 
   @NonNull
-  public final Button btnGoToGithub;
-
-  @NonNull
   public final Button btnGoToProfile;
 
   @NonNull
@@ -36,11 +33,9 @@ public final class ActivityMainBinding implements ViewBinding {
   @NonNull
   public final TextView tvSambutan;
 
-  private ActivityMainBinding(@NonNull ScrollView rootView, @NonNull Button btnGoToGithub,
-      @NonNull Button btnGoToProfile, @NonNull ImageView ivImage, @NonNull TextView tvNamaAplikasi,
-      @NonNull TextView tvSambutan) {
+  private ActivityMainBinding(@NonNull ScrollView rootView, @NonNull Button btnGoToProfile,
+      @NonNull ImageView ivImage, @NonNull TextView tvNamaAplikasi, @NonNull TextView tvSambutan) {
     this.rootView = rootView;
-    this.btnGoToGithub = btnGoToGithub;
     this.btnGoToProfile = btnGoToProfile;
     this.ivImage = ivImage;
     this.tvNamaAplikasi = tvNamaAplikasi;
@@ -74,12 +69,6 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.btnGoToGithub;
-      Button btnGoToGithub = ViewBindings.findChildViewById(rootView, id);
-      if (btnGoToGithub == null) {
-        break missingId;
-      }
-
       id = R.id.btnGoToProfile;
       Button btnGoToProfile = ViewBindings.findChildViewById(rootView, id);
       if (btnGoToProfile == null) {
@@ -104,8 +93,8 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainBinding((ScrollView) rootView, btnGoToGithub, btnGoToProfile, ivImage,
-          tvNamaAplikasi, tvSambutan);
+      return new ActivityMainBinding((ScrollView) rootView, btnGoToProfile, ivImage, tvNamaAplikasi,
+          tvSambutan);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
