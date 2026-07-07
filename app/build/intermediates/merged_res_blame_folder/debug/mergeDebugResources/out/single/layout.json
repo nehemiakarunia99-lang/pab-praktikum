@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.nehem.pabweek3.app-mergeDebugResources-58:/layout/activity_main.xml",
+        "source": "com.nehem.pabweek3.app-main-61:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.nehem.pabweek3.app-mergeDebugResources-58:/layout/activity_profile.xml",
+        "source": "com.nehem.pabweek3.app-main-61:/layout/activity_profile.xml"
+    }
+]
