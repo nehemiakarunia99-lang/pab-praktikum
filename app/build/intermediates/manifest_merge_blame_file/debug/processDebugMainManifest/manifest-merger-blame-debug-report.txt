@@ -9,138 +9,146 @@
 9        android:targetSdkVersion="36" />
 10
 11    <permission
-11-->[androidx.core:core:1.16.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\8294756a508e32935d9f4283eb112859\transformed\core-1.16.0\AndroidManifest.xml:22:5-24:47
+11-->[androidx.core:core:1.16.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\2b0082f8b4ad3e21c39473c175ebbc94\transformed\core-1.16.0\AndroidManifest.xml:22:5-24:47
 12        android:name="com.nehem.pabweek3.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-12-->[androidx.core:core:1.16.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\8294756a508e32935d9f4283eb112859\transformed\core-1.16.0\AndroidManifest.xml:23:9-81
+12-->[androidx.core:core:1.16.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\2b0082f8b4ad3e21c39473c175ebbc94\transformed\core-1.16.0\AndroidManifest.xml:23:9-81
 13        android:protectionLevel="signature" />
-13-->[androidx.core:core:1.16.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\8294756a508e32935d9f4283eb112859\transformed\core-1.16.0\AndroidManifest.xml:24:9-44
+13-->[androidx.core:core:1.16.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\2b0082f8b4ad3e21c39473c175ebbc94\transformed\core-1.16.0\AndroidManifest.xml:24:9-44
 14
 15    <uses-permission android:name="com.nehem.pabweek3.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-15-->[androidx.core:core:1.16.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\8294756a508e32935d9f4283eb112859\transformed\core-1.16.0\AndroidManifest.xml:26:5-97
-15-->[androidx.core:core:1.16.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\8294756a508e32935d9f4283eb112859\transformed\core-1.16.0\AndroidManifest.xml:26:22-94
+15-->[androidx.core:core:1.16.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\2b0082f8b4ad3e21c39473c175ebbc94\transformed\core-1.16.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.16.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\2b0082f8b4ad3e21c39473c175ebbc94\transformed\core-1.16.0\AndroidManifest.xml:26:22-94
 16
 17    <application
-17-->D:\Downloads\PabWeek3\PabWeek3\app\src\main\AndroidManifest.xml:4:5-30:19
-18        android:allowBackup="true"
-18-->D:\Downloads\PabWeek3\PabWeek3\app\src\main\AndroidManifest.xml:5:9-35
-19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-19-->[androidx.core:core:1.16.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\8294756a508e32935d9f4283eb112859\transformed\core-1.16.0\AndroidManifest.xml:28:18-86
-20        android:debuggable="true"
-21        android:extractNativeLibs="false"
-22        android:icon="@mipmap/ic_launcher"
-22-->D:\Downloads\PabWeek3\PabWeek3\app\src\main\AndroidManifest.xml:6:9-43
-23        android:label="PAB Week 3"
-23-->D:\Downloads\PabWeek3\PabWeek3\app\src\main\AndroidManifest.xml:7:9-35
-24        android:roundIcon="@mipmap/ic_launcher"
-24-->D:\Downloads\PabWeek3\PabWeek3\app\src\main\AndroidManifest.xml:8:9-48
-25        android:supportsRtl="true"
-25-->D:\Downloads\PabWeek3\PabWeek3\app\src\main\AndroidManifest.xml:9:9-35
-26        android:testOnly="true"
-27        android:theme="@style/Theme.PabWeek3" >
-27-->D:\Downloads\PabWeek3\PabWeek3\app\src\main\AndroidManifest.xml:10:9-46
-28        <activity
-28-->D:\Downloads\PabWeek3\PabWeek3\app\src\main\AndroidManifest.xml:12:9-19:20
-29            android:name="com.nehem.pabweek3.MainActivity"
-29-->D:\Downloads\PabWeek3\PabWeek3\app\src\main\AndroidManifest.xml:13:13-41
-30            android:exported="true" >
-30-->D:\Downloads\PabWeek3\PabWeek3\app\src\main\AndroidManifest.xml:14:13-36
-31            <intent-filter>
-31-->D:\Downloads\PabWeek3\PabWeek3\app\src\main\AndroidManifest.xml:15:13-18:29
-32                <action android:name="android.intent.action.MAIN" />
-32-->D:\Downloads\PabWeek3\PabWeek3\app\src\main\AndroidManifest.xml:16:17-69
-32-->D:\Downloads\PabWeek3\PabWeek3\app\src\main\AndroidManifest.xml:16:25-66
-33
-34                <category android:name="android.intent.category.LAUNCHER" />
-34-->D:\Downloads\PabWeek3\PabWeek3\app\src\main\AndroidManifest.xml:17:17-77
-34-->D:\Downloads\PabWeek3\PabWeek3\app\src\main\AndroidManifest.xml:17:27-74
-35            </intent-filter>
-36        </activity>
-37        <activity
-37-->D:\Downloads\PabWeek3\PabWeek3\app\src\main\AndroidManifest.xml:21:9-23:40
-38            android:name="com.nehem.pabweek3.ProfileActivity"
-38-->D:\Downloads\PabWeek3\PabWeek3\app\src\main\AndroidManifest.xml:22:13-44
-39            android:exported="false" />
-39-->D:\Downloads\PabWeek3\PabWeek3\app\src\main\AndroidManifest.xml:23:13-37
-40
-41        <!-- Tugas Praktikum PAB (Week 4) - Compose UI Components -->
-42        <activity
-42-->D:\Downloads\PabWeek3\PabWeek3\app\src\main\AndroidManifest.xml:26:9-28:39
-43            android:name="com.nehem.pabweek3.ComposeDemoActivity"
-43-->D:\Downloads\PabWeek3\PabWeek3\app\src\main\AndroidManifest.xml:27:13-48
-44            android:exported="true" />
-44-->D:\Downloads\PabWeek3\PabWeek3\app\src\main\AndroidManifest.xml:28:13-36
-45        <activity
-45-->[androidx.compose.ui:ui-tooling-android:1.9.5] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\14db1bc0264c0dbc174afdf92051b887\transformed\ui-tooling\AndroidManifest.xml:23:9-25:39
-46            android:name="androidx.compose.ui.tooling.PreviewActivity"
-46-->[androidx.compose.ui:ui-tooling-android:1.9.5] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\14db1bc0264c0dbc174afdf92051b887\transformed\ui-tooling\AndroidManifest.xml:24:13-71
-47            android:exported="true" />
-47-->[androidx.compose.ui:ui-tooling-android:1.9.5] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\14db1bc0264c0dbc174afdf92051b887\transformed\ui-tooling\AndroidManifest.xml:25:13-36
+17-->D:\Downloads\TUGAS PAB PRAK\PabWeek3\app\src\main\AndroidManifest.xml:4:5-36:19
+18        android:name="com.nehem.pabweek3.PabWeek3Application"
+18-->D:\Downloads\TUGAS PAB PRAK\PabWeek3\app\src\main\AndroidManifest.xml:5:9-44
+19        android:allowBackup="true"
+19-->D:\Downloads\TUGAS PAB PRAK\PabWeek3\app\src\main\AndroidManifest.xml:6:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.16.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\2b0082f8b4ad3e21c39473c175ebbc94\transformed\core-1.16.0\AndroidManifest.xml:28:18-86
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+23        android:icon="@mipmap/ic_launcher"
+23-->D:\Downloads\TUGAS PAB PRAK\PabWeek3\app\src\main\AndroidManifest.xml:7:9-43
+24        android:label="PAB Week 3"
+24-->D:\Downloads\TUGAS PAB PRAK\PabWeek3\app\src\main\AndroidManifest.xml:8:9-35
+25        android:roundIcon="@mipmap/ic_launcher"
+25-->D:\Downloads\TUGAS PAB PRAK\PabWeek3\app\src\main\AndroidManifest.xml:9:9-48
+26        android:supportsRtl="true"
+26-->D:\Downloads\TUGAS PAB PRAK\PabWeek3\app\src\main\AndroidManifest.xml:10:9-35
+27        android:testOnly="true"
+28        android:theme="@style/Theme.PabWeek3" >
+28-->D:\Downloads\TUGAS PAB PRAK\PabWeek3\app\src\main\AndroidManifest.xml:11:9-46
+29
+30        <!-- Tugas Praktikum PAB (Week 3) - masih disimpan untuk materi Intent (Explicit/Implicit) -->
+31        <activity
+31-->D:\Downloads\TUGAS PAB PRAK\PabWeek3\app\src\main\AndroidManifest.xml:14:9-16:39
+32            android:name="com.nehem.pabweek3.MainActivity"
+32-->D:\Downloads\TUGAS PAB PRAK\PabWeek3\app\src\main\AndroidManifest.xml:15:13-41
+33            android:exported="true" />
+33-->D:\Downloads\TUGAS PAB PRAK\PabWeek3\app\src\main\AndroidManifest.xml:16:13-36
+34        <activity
+34-->D:\Downloads\TUGAS PAB PRAK\PabWeek3\app\src\main\AndroidManifest.xml:18:9-20:40
+35            android:name="com.nehem.pabweek3.ProfileActivity"
+35-->D:\Downloads\TUGAS PAB PRAK\PabWeek3\app\src\main\AndroidManifest.xml:19:13-44
+36            android:exported="false" />
+36-->D:\Downloads\TUGAS PAB PRAK\PabWeek3\app\src\main\AndroidManifest.xml:20:13-37
+37
+38        <!--
+39            Tugas Praktikum PAB (Week 4-6) - Compose UI + Navigation 3 + Lazy List/AlertDialog/BottomSheet
+40            Dijadikan launcher agar saat aplikasi dijalankan di Emulator/Device untuk demo,
+41            langsung masuk ke alur Login -> Home -> Todo (Lazy List, Alert Dialog, Bottom Sheet).
+42        -->
+43        <activity
+43-->D:\Downloads\TUGAS PAB PRAK\PabWeek3\app\src\main\AndroidManifest.xml:27:9-34:20
+44            android:name="com.nehem.pabweek3.ComposeDemoActivity"
+44-->D:\Downloads\TUGAS PAB PRAK\PabWeek3\app\src\main\AndroidManifest.xml:28:13-48
+45            android:exported="true" >
+45-->D:\Downloads\TUGAS PAB PRAK\PabWeek3\app\src\main\AndroidManifest.xml:29:13-36
+46            <intent-filter>
+46-->D:\Downloads\TUGAS PAB PRAK\PabWeek3\app\src\main\AndroidManifest.xml:30:13-33:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->D:\Downloads\TUGAS PAB PRAK\PabWeek3\app\src\main\AndroidManifest.xml:31:17-69
+47-->D:\Downloads\TUGAS PAB PRAK\PabWeek3\app\src\main\AndroidManifest.xml:31:25-66
 48
-49        <provider
-49-->[androidx.emoji2:emoji2:1.4.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\ed60e939e3cb65df4c2ec2f19f8f4218\transformed\emoji2-1.4.0\AndroidManifest.xml:24:9-32:20
-50            android:name="androidx.startup.InitializationProvider"
-50-->[androidx.emoji2:emoji2:1.4.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\ed60e939e3cb65df4c2ec2f19f8f4218\transformed\emoji2-1.4.0\AndroidManifest.xml:25:13-67
-51            android:authorities="com.nehem.pabweek3.androidx-startup"
-51-->[androidx.emoji2:emoji2:1.4.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\ed60e939e3cb65df4c2ec2f19f8f4218\transformed\emoji2-1.4.0\AndroidManifest.xml:26:13-68
-52            android:exported="false" >
-52-->[androidx.emoji2:emoji2:1.4.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\ed60e939e3cb65df4c2ec2f19f8f4218\transformed\emoji2-1.4.0\AndroidManifest.xml:27:13-37
-53            <meta-data
-53-->[androidx.emoji2:emoji2:1.4.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\ed60e939e3cb65df4c2ec2f19f8f4218\transformed\emoji2-1.4.0\AndroidManifest.xml:29:13-31:52
-54                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-54-->[androidx.emoji2:emoji2:1.4.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\ed60e939e3cb65df4c2ec2f19f8f4218\transformed\emoji2-1.4.0\AndroidManifest.xml:30:17-75
-55                android:value="androidx.startup" />
-55-->[androidx.emoji2:emoji2:1.4.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\ed60e939e3cb65df4c2ec2f19f8f4218\transformed\emoji2-1.4.0\AndroidManifest.xml:31:17-49
-56            <meta-data
-56-->[androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\57a98bd171a515d65a7f46babcee5233\transformed\lifecycle-process-2.10.0\AndroidManifest.xml:29:13-31:52
-57                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-57-->[androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\57a98bd171a515d65a7f46babcee5233\transformed\lifecycle-process-2.10.0\AndroidManifest.xml:30:17-78
-58                android:value="androidx.startup" />
-58-->[androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\57a98bd171a515d65a7f46babcee5233\transformed\lifecycle-process-2.10.0\AndroidManifest.xml:31:17-49
-59            <meta-data
-59-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\80c394621bcfe4d3ad0bc938e71b41ec\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
-60                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-60-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\80c394621bcfe4d3ad0bc938e71b41ec\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
-61                android:value="androidx.startup" />
-61-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\80c394621bcfe4d3ad0bc938e71b41ec\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
-62        </provider>
-63
-64        <receiver
-64-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\80c394621bcfe4d3ad0bc938e71b41ec\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
-65            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-65-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\80c394621bcfe4d3ad0bc938e71b41ec\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
-66            android:directBootAware="false"
-66-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\80c394621bcfe4d3ad0bc938e71b41ec\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
-67            android:enabled="true"
-67-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\80c394621bcfe4d3ad0bc938e71b41ec\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
-68            android:exported="true"
-68-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\80c394621bcfe4d3ad0bc938e71b41ec\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
-69            android:permission="android.permission.DUMP" >
-69-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\80c394621bcfe4d3ad0bc938e71b41ec\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
-70            <intent-filter>
-70-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\80c394621bcfe4d3ad0bc938e71b41ec\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
-71                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-71-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\80c394621bcfe4d3ad0bc938e71b41ec\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
-71-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\80c394621bcfe4d3ad0bc938e71b41ec\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
-72            </intent-filter>
-73            <intent-filter>
-73-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\80c394621bcfe4d3ad0bc938e71b41ec\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
-74                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-74-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\80c394621bcfe4d3ad0bc938e71b41ec\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
-74-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\80c394621bcfe4d3ad0bc938e71b41ec\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
-75            </intent-filter>
-76            <intent-filter>
-76-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\80c394621bcfe4d3ad0bc938e71b41ec\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
-77                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-77-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\80c394621bcfe4d3ad0bc938e71b41ec\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
-77-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\80c394621bcfe4d3ad0bc938e71b41ec\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
-78            </intent-filter>
-79            <intent-filter>
-79-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\80c394621bcfe4d3ad0bc938e71b41ec\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
-80                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-80-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\80c394621bcfe4d3ad0bc938e71b41ec\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
-80-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\80c394621bcfe4d3ad0bc938e71b41ec\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
-81            </intent-filter>
-82        </receiver>
-83    </application>
-84
-85</manifest>
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->D:\Downloads\TUGAS PAB PRAK\PabWeek3\app\src\main\AndroidManifest.xml:32:17-77
+49-->D:\Downloads\TUGAS PAB PRAK\PabWeek3\app\src\main\AndroidManifest.xml:32:27-74
+50            </intent-filter>
+51        </activity>
+52        <activity
+52-->[androidx.compose.ui:ui-tooling-android:1.9.5] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\78b4ce3cb85df9fb70073eddb1872532\transformed\ui-tooling\AndroidManifest.xml:23:9-25:39
+53            android:name="androidx.compose.ui.tooling.PreviewActivity"
+53-->[androidx.compose.ui:ui-tooling-android:1.9.5] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\78b4ce3cb85df9fb70073eddb1872532\transformed\ui-tooling\AndroidManifest.xml:24:13-71
+54            android:exported="true" />
+54-->[androidx.compose.ui:ui-tooling-android:1.9.5] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\78b4ce3cb85df9fb70073eddb1872532\transformed\ui-tooling\AndroidManifest.xml:25:13-36
+55
+56        <provider
+56-->[androidx.emoji2:emoji2:1.4.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\3350c126beb3c969a3e073a5baf33e2a\transformed\emoji2-1.4.0\AndroidManifest.xml:24:9-32:20
+57            android:name="androidx.startup.InitializationProvider"
+57-->[androidx.emoji2:emoji2:1.4.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\3350c126beb3c969a3e073a5baf33e2a\transformed\emoji2-1.4.0\AndroidManifest.xml:25:13-67
+58            android:authorities="com.nehem.pabweek3.androidx-startup"
+58-->[androidx.emoji2:emoji2:1.4.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\3350c126beb3c969a3e073a5baf33e2a\transformed\emoji2-1.4.0\AndroidManifest.xml:26:13-68
+59            android:exported="false" >
+59-->[androidx.emoji2:emoji2:1.4.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\3350c126beb3c969a3e073a5baf33e2a\transformed\emoji2-1.4.0\AndroidManifest.xml:27:13-37
+60            <meta-data
+60-->[androidx.emoji2:emoji2:1.4.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\3350c126beb3c969a3e073a5baf33e2a\transformed\emoji2-1.4.0\AndroidManifest.xml:29:13-31:52
+61                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+61-->[androidx.emoji2:emoji2:1.4.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\3350c126beb3c969a3e073a5baf33e2a\transformed\emoji2-1.4.0\AndroidManifest.xml:30:17-75
+62                android:value="androidx.startup" />
+62-->[androidx.emoji2:emoji2:1.4.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\3350c126beb3c969a3e073a5baf33e2a\transformed\emoji2-1.4.0\AndroidManifest.xml:31:17-49
+63            <meta-data
+63-->[androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\2b34ecd099828c77bbff57b07ca96879\transformed\lifecycle-process-2.10.0\AndroidManifest.xml:29:13-31:52
+64                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+64-->[androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\2b34ecd099828c77bbff57b07ca96879\transformed\lifecycle-process-2.10.0\AndroidManifest.xml:30:17-78
+65                android:value="androidx.startup" />
+65-->[androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\2b34ecd099828c77bbff57b07ca96879\transformed\lifecycle-process-2.10.0\AndroidManifest.xml:31:17-49
+66            <meta-data
+66-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\b6c6c3d10f17d1fa2e548b9d6ce562b2\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+67                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+67-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\b6c6c3d10f17d1fa2e548b9d6ce562b2\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+68                android:value="androidx.startup" />
+68-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\b6c6c3d10f17d1fa2e548b9d6ce562b2\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+69        </provider>
+70
+71        <receiver
+71-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\b6c6c3d10f17d1fa2e548b9d6ce562b2\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+72            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+72-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\b6c6c3d10f17d1fa2e548b9d6ce562b2\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+73            android:directBootAware="false"
+73-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\b6c6c3d10f17d1fa2e548b9d6ce562b2\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+74            android:enabled="true"
+74-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\b6c6c3d10f17d1fa2e548b9d6ce562b2\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+75            android:exported="true"
+75-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\b6c6c3d10f17d1fa2e548b9d6ce562b2\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+76            android:permission="android.permission.DUMP" >
+76-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\b6c6c3d10f17d1fa2e548b9d6ce562b2\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+77            <intent-filter>
+77-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\b6c6c3d10f17d1fa2e548b9d6ce562b2\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+78                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+78-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\b6c6c3d10f17d1fa2e548b9d6ce562b2\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+78-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\b6c6c3d10f17d1fa2e548b9d6ce562b2\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+79            </intent-filter>
+80            <intent-filter>
+80-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\b6c6c3d10f17d1fa2e548b9d6ce562b2\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+81                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+81-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\b6c6c3d10f17d1fa2e548b9d6ce562b2\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+81-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\b6c6c3d10f17d1fa2e548b9d6ce562b2\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+82            </intent-filter>
+83            <intent-filter>
+83-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\b6c6c3d10f17d1fa2e548b9d6ce562b2\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+84                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+84-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\b6c6c3d10f17d1fa2e548b9d6ce562b2\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+84-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\b6c6c3d10f17d1fa2e548b9d6ce562b2\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+85            </intent-filter>
+86            <intent-filter>
+86-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\b6c6c3d10f17d1fa2e548b9d6ce562b2\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+87                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+87-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\b6c6c3d10f17d1fa2e548b9d6ce562b2\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+87-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\LENOVO\.gradle\caches\9.0.0\transforms\b6c6c3d10f17d1fa2e548b9d6ce562b2\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+88            </intent-filter>
+89        </receiver>
+90    </application>
+91
+92</manifest>

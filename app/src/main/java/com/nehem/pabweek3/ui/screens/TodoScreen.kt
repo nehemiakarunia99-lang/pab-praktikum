@@ -13,43 +13,27 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextDecoration
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import androidx.hilt.navigation.compose.hiltViewModel
+import com.nehem.pabweek3.data.TodoItem
 import com.nehem.pabweek3.navigation.LocalBackStack
 import com.nehem.pabweek3.navigation.Route
-import com.nehem.pabweek3.ui.theme.PabWeek3Theme
 
 /**
- * TodoScreen - Tugas Praktikum PAB (Week 6)
- * Mengimplementasikan:
- * - Lazy List: menampilkan daftar tugas (LazyColumn)
- * - Alert Dialog: konfirmasi sebelum menghapus tugas
- * - Bottom Sheet: form untuk menambahkan tugas baru
- * Semua diatur dengan state (remember/mutableStateOf) agar tetap
- * responsif dan tidak crash saat digunakan berulang kali.
+ * TodoScreen - Tugas Praktikum PAB (Week 6 + Week 9 + Week Hilt)
+ * Week 6: Lazy List, Alert Dialog, Bottom Sheet
+ * Week 9: Data layer persistence menggunakan DataStore (lihat TodoRepository & TodoViewModel)
+ * Hilt: TodoViewModel sekarang di-inject otomatis lewat hiltViewModel()
  */
-data class TodoItem(
-    val id: Int,
-    val title: String,
-    val isDone: Boolean = false
-)
-
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun TodoScreen() {
+fun TodoScreen(
+    viewModel: TodoViewModel = hiltViewModel()
+) {
     val backStack = LocalBackStack.current
 
-    // STATE: daftar todo utama
-    var todos by remember {
-        mutableStateOf(
-            listOf(
-                TodoItem(1, "Kerjakan laporan PPAB Week 6"),
-                TodoItem(2, "Push repo ke GitHub"),
-                TodoItem(3, "Rekam video demo", isDone = true),
-            )
-        )
-    }
-    var nextId by remember { mutableIntStateOf(4) }
+    // STATE: daftar todo sekarang diambil dari ViewModel (sumbernya DataStore)
+    val todos by viewModel.todos.collectAsState()
 
     // STATE: kontrol Bottom Sheet (tambah tugas)
     var showBottomSheet by remember { mutableStateOf(false) }
@@ -109,10 +93,8 @@ fun TodoScreen() {
                             Checkbox(
                                 checked = todo.isDone,
                                 onCheckedChange = { checked ->
-                                    // Update state list: ganti item yang dicentang
-                                    todos = todos.map {
-                                        if (it.id == todo.id) it.copy(isDone = checked) else it
-                                    }
+                                    // Update lewat ViewModel, otomatis tersimpan ke DataStore
+                                    viewModel.toggleDone(todo.id, checked)
                                 }
                             )
 
@@ -148,7 +130,7 @@ fun TodoScreen() {
             text = { Text("Yakin ingin menghapus \"${todoToDelete?.title}\"?") },
             confirmButton = {
                 TextButton(onClick = {
-                    todos = todos.filter { it.id != todoToDelete?.id }
+                    viewModel.deleteTodo(todoToDelete!!.id)
                     todoToDelete = null
                 }) {
                     Text("Hapus", color = MaterialTheme.colorScheme.error)
@@ -196,8 +178,7 @@ fun TodoScreen() {
                 Button(
                     onClick = {
                         if (newTodoText.isNotBlank()) {
-                            todos = todos + TodoItem(nextId, newTodoText.trim())
-                            nextId += 1
+                            viewModel.addTodo(newTodoText.trim())
                             newTodoText = ""
                             showBottomSheet = false
                         }
@@ -210,18 +191,6 @@ fun TodoScreen() {
 
                 Spacer(modifier = Modifier.height(16.dp))
             }
-        }
-    }
-}
-
-@Preview(showBackground = true)
-@Composable
-fun TodoScreenPreview() {
-    PabWeek3Theme {
-        CompositionLocalProvider(
-            LocalBackStack provides androidx.navigation3.runtime.rememberNavBackStack(Route.Home)
-        ) {
-            TodoScreen()
         }
     }
 }

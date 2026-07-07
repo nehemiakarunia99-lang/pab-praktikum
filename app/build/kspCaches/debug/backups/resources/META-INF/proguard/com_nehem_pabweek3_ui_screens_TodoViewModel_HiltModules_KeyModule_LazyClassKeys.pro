@@ -1,0 +1,1 @@
+-keep,allowobfuscation,allowshrinking class com.nehem.pabweek3.ui.screens.TodoViewModel

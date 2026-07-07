@@ -1,26 +1,26 @@
 [
     {
-        "merged": "com.nehem.pabweek3.app-debug-49:/drawable_ic_person.xml.flat",
-        "source": "com.nehem.pabweek3.app-main-51:/drawable/ic_person.xml"
+        "merged": "com.nehem.pabweek3.app-debug-59:/drawable_ic_placeholder.xml.flat",
+        "source": "com.nehem.pabweek3.app-main-61:/drawable/ic_placeholder.xml"
     },
     {
-        "merged": "com.nehem.pabweek3.app-debug-49:/layout_activity_main.xml.flat",
-        "source": "com.nehem.pabweek3.app-main-51:/layout/activity_main.xml"
+        "merged": "com.nehem.pabweek3.app-debug-59:/layout_activity_profile.xml.flat",
+        "source": "com.nehem.pabweek3.app-main-61:/layout/activity_profile.xml"
     },
     {
-        "merged": "com.nehem.pabweek3.app-debug-49:/drawable_bg_circle.xml.flat",
-        "source": "com.nehem.pabweek3.app-main-51:/drawable/bg_circle.xml"
+        "merged": "com.nehem.pabweek3.app-debug-59:/drawable_ic_person.xml.flat",
+        "source": "com.nehem.pabweek3.app-main-61:/drawable/ic_person.xml"
     },
     {
-        "merged": "com.nehem.pabweek3.app-debug-49:/drawable_ic_placeholder.xml.flat",
-        "source": "com.nehem.pabweek3.app-main-51:/drawable/ic_placeholder.xml"
+        "merged": "com.nehem.pabweek3.app-debug-59:/layout_activity_main.xml.flat",
+        "source": "com.nehem.pabweek3.app-main-61:/layout/activity_main.xml"
     },
     {
-        "merged": "com.nehem.pabweek3.app-debug-49:/layout_activity_profile.xml.flat",
-        "source": "com.nehem.pabweek3.app-main-51:/layout/activity_profile.xml"
+        "merged": "com.nehem.pabweek3.app-debug-59:/drawable_bg_circle.xml.flat",
+        "source": "com.nehem.pabweek3.app-main-61:/drawable/bg_circle.xml"
     },
     {
-        "merged": "com.nehem.pabweek3.app-debug-49:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.nehem.pabweek3.app-main-51:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "com.nehem.pabweek3.app-debug-59:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.nehem.pabweek3.app-main-61:/mipmap-anydpi-v26/ic_launcher.xml"
     }
 ]

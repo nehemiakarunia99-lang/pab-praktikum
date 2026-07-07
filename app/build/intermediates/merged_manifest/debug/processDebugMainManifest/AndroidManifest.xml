@@ -15,6 +15,7 @@
     <uses-permission android:name="com.nehem.pabweek3.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 
     <application
+        android:name="com.nehem.pabweek3.PabWeek3Application"
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
@@ -25,8 +26,22 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.PabWeek3" >
+
+        <!-- Tugas Praktikum PAB (Week 3) - masih disimpan untuk materi Intent (Explicit/Implicit) -->
         <activity
             android:name="com.nehem.pabweek3.MainActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.nehem.pabweek3.ProfileActivity"
+            android:exported="false" />
+
+        <!--
+            Tugas Praktikum PAB (Week 4-6) - Compose UI + Navigation 3 + Lazy List/AlertDialog/BottomSheet
+            Dijadikan launcher agar saat aplikasi dijalankan di Emulator/Device untuk demo,
+            langsung masuk ke alur Login -> Home -> Todo (Lazy List, Alert Dialog, Bottom Sheet).
+        -->
+        <activity
+            android:name="com.nehem.pabweek3.ComposeDemoActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -34,14 +49,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="com.nehem.pabweek3.ProfileActivity"
-            android:exported="false" />
-
-        <!-- Tugas Praktikum PAB (Week 4) - Compose UI Components -->
-        <activity
-            android:name="com.nehem.pabweek3.ComposeDemoActivity"
-            android:exported="true" />
         <activity
             android:name="androidx.compose.ui.tooling.PreviewActivity"
             android:exported="true" />
