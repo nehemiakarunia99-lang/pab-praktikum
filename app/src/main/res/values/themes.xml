@@ -1,0 +1,4 @@
+<resources>
+
+    <style name="Theme.Catapp" parent="Theme.MaterialComponents.Light" />
+</resources>
